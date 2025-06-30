@@ -260,7 +260,7 @@ with sq.connect("database.db") as connect:
     cursor = connect.cursor()
     create_table_engines()
     create_table_boards()
-    create_table_collections()
+    create_table_collections() # share_market_quotes
     create_table_markets()
     create_table_durations()
     create_table_board_groups()
