@@ -262,7 +262,7 @@ with sq.connect("database.db") as connect:
     create_table_boards()
     create_table_collections() # share_market_quotes
     create_table_markets()
-    create_table_durations()
+    create_table_durations()# share_market_quotes
     create_table_board_groups()
     create_table_index_histories()
     create_table_index_securities()
