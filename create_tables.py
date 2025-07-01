@@ -266,7 +266,7 @@ with sq.connect("database.db") as connect:
     create_table_board_groups()# share_market_quotes
     create_table_index_histories()# share_market_quotes
     create_table_index_securities()# share_market_quotes
-    create_table_inflation_key_rates()# share_market_quotes
+    create_table_inflation_key_rates()
     create_table_security_group()
     create_table_board_groups()
     create_table_share_securities()
